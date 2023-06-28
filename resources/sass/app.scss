@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+// alterações manuais
+
+@media (max-width: 991.98px){
+    .logout-button{
+        display: none;
+    }
+    .logout-button2{
+        display: block;
+    }
+}
+
+@media (min-width: 991.99px){
+    .logout-button2{
+        display: none;
+    }
+    .logout-button{
+        display: block;
+    }
+}
